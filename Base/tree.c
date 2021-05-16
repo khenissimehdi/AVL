@@ -46,6 +46,8 @@ node *scan_tree(void)
 
   tree->left = scan_tree();
   tree->right = scan_tree();
+  compute_balance(tree);
+
   return tree;
 }
 int count_nodes(node *t)

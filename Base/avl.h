@@ -20,10 +20,9 @@ node *rotate_right(node *t);
 node *rotate_left(node *t);
 node *rotate_left_right(node *t);
 node *rotate_right_left(node *t);
-node *find_avl(node *t, int elt);
 
 node *insert_avl(node *t, int elt);
 
-node *remove_avl(node *t, int elt);
+int is_avl(node *t);
 
 #endif /* AVL_H */

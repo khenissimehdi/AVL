@@ -2,6 +2,16 @@ digraph tree {
   node [shape=record,height=.1]
   edge [tailclip=false, arrowtail=dot, dir=both];
 
-  n0x7f9c19405a20 [label="<left> |{ <value> 10 | <height> 0 }| <right>"];
+  n0x55c94276c300 [label="<left> |{ <value> 11 | <height> 2 }| <right>"];
+  n0x55c94276c300:left:c -> n0x55c94276c2a0:value;
+  n0x55c94276c2a0 [label="<left> |{ <value> 10 | <height> 1 }| <right>"];
+  n0x55c94276c2a0:left:c -> n0x55c94276c2c0:value;
+  n0x55c94276c2c0 [label="<left> |{ <value> 5 | <height> 0 }| <right>"];
+  n0x55c94276c300:right:c -> n0x55c94276c2e0:value;
+  n0x55c94276c2e0 [label="<left> |{ <value> 13 | <height> 1 }| <right>"];
+  n0x55c94276c2e0:left:c -> n0x55c94276c340:value;
+  n0x55c94276c340 [label="<left> |{ <value> 12 | <height> 0 }| <right>"];
+  n0x55c94276c2e0:right:c -> n0x55c94276c320:value;
+  n0x55c94276c320 [label="<left> |{ <value> 15 | <height> 0 }| <right>"];
 
 }
