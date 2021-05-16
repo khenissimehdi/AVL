@@ -1,0 +1,7 @@
+digraph tree {
+  node [shape=record,height=.1]
+  edge [tailclip=false, arrowtail=dot, dir=both];
+
+  n0x7f9c19405a20 [label="<left> |{ <value> 10 | <height> 0 }| <right>"];
+
+}
